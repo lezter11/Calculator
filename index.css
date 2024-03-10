@@ -69,3 +69,17 @@ button:active{
 .operator-btn:active{
     background-color: hsl(35, 100%, 75%);
 }
+
+@media screen and (max-width: 600px){
+    .container{
+        max-width: 33rem;
+        height: 50vh;
+    
+    }
+
+    button {
+        height: 5rem;
+        width: 5rem;
+        font-size: 2rem;
+    }
+}
