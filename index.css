@@ -6,6 +6,7 @@ body{
     align-items: center;
     height: 100vh;
     background-color: hsl(0, 0%, 95%);
+    -webkit-tap-highlight-color: transparent;
 }
 
 button {
@@ -81,5 +82,25 @@ button:active{
         height: 5rem;
         width: 5rem;
         font-size: 2rem;
+    }
+
+    button:hover{
+        background-color: hsl(0, 0%, 40%);
+    }
+    
+    button:active{
+        background-color: hsl(0, 0%, 50%);
+    }
+    
+    .operator-btn{
+        background-color: hsl(35, 100%, 55%);
+    }
+    
+    .operator-btn:hover{
+        background-color: hsl(35, 100%, 65%);
+    }
+    
+    .operator-btn:active{
+        background-color: hsl(35, 100%, 75%);
     }
 }
